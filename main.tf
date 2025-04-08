@@ -5,7 +5,7 @@ terraform {
       source  = "hashicorp/aws"
     }
     http = {
-      version = "~> 3.0"
+      version = "3.4.0"
       source  = "hashicorp/http"
     }
     github = {
@@ -17,5 +17,5 @@ terraform {
       source  = "hashicorp/random"
     }
   }
-  required_version = "1.4.6"
+  required_version = "~> 1.10"
 }
