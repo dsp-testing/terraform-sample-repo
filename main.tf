@@ -5,7 +5,7 @@ terraform {
       source  = "hashicorp/aws"
     }
     http = {
-      version = "3.4.0"
+      version = "~> 3.0"
       source  = "hashicorp/http"
     }
     github = {
